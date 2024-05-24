@@ -11,8 +11,9 @@ git clone https://github.com/elregansekwon/IdolFanClubManager.git
 프로그램을 실행합니다.
 
 ```bash
-코드 복사
 python main.py
+```
+
 ## 기능
 각 아이돌의 팬 수를 확인할 수 있습니다.
 팬 클럽 멤버를 추가하거나 제거할 수 있습니다.
@@ -23,10 +24,12 @@ python main.py
 ```bash
 fan_count = fanclub.get_fan_count("Idol A")
 print("Idol A의 팬 수:", fan_count)
+```
 팬 클럽 멤버를 추가하려면 add_member() 메서드를 사용합니다.
 
 ```bash
 fanclub.add_member("Idol B", "Bob")
+```
 테스트를 실행하려면 test_fanclub.py 파일을 실행합니다.
 
 ## 테스트와 Mock
@@ -34,6 +37,7 @@ fanclub.add_member("Idol B", "Bob")
 
 ```bash
 python test_fanclub.py
+```
 ## 기여방법
 저장소를 포크합니다.
 새로운 기능이나 버그 수정을 위한 브랜치를 만듭니다.
