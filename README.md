@@ -8,6 +8,7 @@ IdolFanClubManager는 아이돌 팬 클럽을 관리하는 Python 프로그램�
 저장소를 클론합니다.
 ```bash
 git clone https://github.com/elregansekwon/IdolFanClubManager.git
+```
 프로그램을 실행합니다.
 
 ```bash
